@@ -1,3 +1,16 @@
+<?php
+
+use Entity\Doctor;
+use Entity\Speciality;
+
+require_once 'bootstrap.php';
+
+$doctors = $entityManager->getRepository(Doctor::class)->findAll();
+
+
+
+$specialities = $entityManager->getRepository(Speciality::class)->findAll();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

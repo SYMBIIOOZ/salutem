@@ -2,7 +2,9 @@
     "require": {
         "doctrine/orm": "^2.11",
         "doctrine/annotations": "^1.13",
-        "symfony/cache": "^6.0"
+        "symfony/cache": "^6.0",
+        "twig/twig": "3.0"
+
     },
 
     "autoload": {
