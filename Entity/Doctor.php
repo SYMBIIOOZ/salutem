@@ -159,5 +159,9 @@ class Doctor
         $this->speciality = $speciality;
     }
 
+    public function getFullName(): string
+    {
+        return $this->getFirstName() . ' ' . $this->getLastName();
+    }
 
 }
